@@ -115,7 +115,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 <input type="text" name="nama_kelas" class="form-control" id="nama_kelas" required>
             </div>
 
-            <button type="submit" class="btn btn-success">Tambah Kelas</button>
+            <button type="submit" class="btn btn-success">Simpan</button>
             <a href="kelas.php" class="btn btn-primary">Kembali</a>
         </form>
     </div>

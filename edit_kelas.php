@@ -67,8 +67,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 <label for="nama_kelas" class="form-label">Nama Kelas</label>
                 <input type="text" name="nama_kelas" id="nama_kelas" class="form-control" value="<?php echo htmlspecialchars($kelas['nama_kelas']); ?>" required>
             </div>
-            <button type="submit" class="btn btn-success">Simpan Perubahan</button>
-            <a href="kelas.php" class="btn btn-primary">Kembali</a>
+            <button type="submit" class="btn btn-success">Update</button>
+            <a href="kelas.php" class="btn btn-secondary">Batal</a>
         </form>
     </div>
 

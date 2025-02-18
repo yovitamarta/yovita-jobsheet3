@@ -3,14 +3,14 @@ include 'koneksi.php';
 
 // Ambil data siswa
 $query = "SELECT siswa.*, kelas.nama_kelas, wali_murid.nama_wali FROM siswa
-           LEFT JOIN kelas ON siswa.id_kelas = kelas.id_kelas
-           LEFT JOIN wali_murid ON siswa.id_wali = wali_murid.id_wali";
+          LEFT JOIN kelas ON siswa.id_kelas = kelas.id_kelas
+          LEFT JOIN wali_murid ON siswa.id_wali = wali_murid.id_wali";
 $result = mysqli_query($koneksi, $query);
 
 ?>
 <!DOCTYPE html>
 <html lang="id">
-
+    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -65,3 +65,4 @@ $result = mysqli_query($koneksi, $query);
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
